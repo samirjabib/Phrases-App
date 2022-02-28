@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+}
+
+
+.App {
+  
+  align-items: center;
+  display:flex;
+  height: 100vh;
+  justify-content: center;
+
+}
+
+.card {
+  max-width: 700px;
+  box-shadow: 2px 2px 8px black;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  background: #ffffff;
+  
+}
+
+
+
+.card ul{
+  text-align:center;
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  
+}
+
+
+.card cite{
+  text-align: center;
+
+}
+  
+.card button{
+  float:right;
+  font-size:20px;
+
+}
+
+.card button {
+  border:none;
+  border-radius:60%;
+  color:#ffffff;
+  float: rigth;
+  font-size:20px;
+  height:55px;
+  width:55px;
+
+}
+
+.card li i{
+  font-size: xx-large;
+}
